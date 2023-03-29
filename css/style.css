@@ -1,0 +1,67 @@
+body {
+    background: rgb(245, 234, 255);
+}
+
+.colorBorde {
+    background: #DFCEDF;
+}
+
+.colorCheck {
+    background: #AA87A9;
+}
+
+.showinfo {
+    display: block !important;
+}
+
+.navColor{
+    background-color: black;
+    padding: 20px;
+}
+
+.content-descarga{
+    width: 100%;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #DFCEDF;
+    text-align: center;
+    border: 2px solid #AA87A9;
+}
+
+.descarga-ahora{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    background: #AA87A9;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+
+.descarga-ahora:hover{
+    opacity: 0.9;
+    color: aliceblue;
+}
+
+.btn-descarga{
+    display: inline-block;
+    padding: 15px 25px;
+    background: #AA87A9;
+    color: aliceblue;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: 0px;
+    cursor: pointer;
+}
+.btn-descarga:hover{
+    opacity: 0.9;
+    color: aliceblue;
+}
+
+.centrarBoton{
+    display: flex;
+    justify-content: center;
+}
